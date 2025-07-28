@@ -20,19 +20,18 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-3. Download NLTK data:
-```python
-import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-```
-
 ## Usage
 1. Place your email dataset in the `data` directory
-2. Run the model:
+2. Run the model in command prompt:
 ```bash
 python spam_detector.py
 ```
+3. Run in Website:
+```bash
+python app.py
+```
+
+
 
 ## Data Format
 The model expects a CSV file with the following columns:
